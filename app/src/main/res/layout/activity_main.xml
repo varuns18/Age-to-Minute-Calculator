@@ -13,7 +13,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Calculate your Age\nto Minute"
+        android:text="@string/calculate_your_age_to_minute"
         android:textAlignment="center"
         android:textSize="28.sp"
         android:textStyle="bold"
@@ -22,21 +22,26 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="26.dp"/>
+
     <Button
-        android:id="@+id/buttonDatePicker"
-        android:layout_width="match_parent"
+        android:id="@+id/btnDatePicker"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="16.dp"
-        android:text="Select DOB" />
+        android:paddingLeft="40.dp"
+        android:paddingRight="40.dp"
+        android:text="@string/select_date" />
 
     <Space
         android:layout_width="wrap_content"
         android:layout_height="26.dp"/>
 
     <TextView
+        android:id="@+id/date"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="20/02/2024"
         android:textAlignment="center"
         android:textSize="20.sp"
         android:textStyle="bold"
@@ -48,7 +53,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Selected Date"
+        android:text="@string/selected_date"
         android:textAlignment="center"
         android:textSize="16.sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -62,9 +67,9 @@
         android:layout_height="26.dp"/>
 
     <TextView
+        android:id="@+id/finalValue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="56154531256451"
         android:textAlignment="center"
         android:textSize="24.sp"
         android:textStyle="bold"
@@ -76,7 +81,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Total Minute"
+        android:text="@string/total_minute"
         android:textAlignment="center"
         android:textSize="16.sp"
         app:layout_constraintBottom_toBottomOf="parent"

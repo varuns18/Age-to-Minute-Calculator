@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Age to Minute Calculator</string>
+    <string name="total_minute">Total Minute</string>
+    <string name="selected_date">Selected Date</string>
+    <string name="select_date">Select Date</string>
+    <string name="calculate_your_age_to_minute">Calculate your Age\nto Minute</string>
 </resources>
